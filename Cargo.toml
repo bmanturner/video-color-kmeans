@@ -1,0 +1,16 @@
+[package]
+name = "video-color-kmeans"
+version = "0.1.0"
+description = "Extracts a color palette from a video using k-means clustering"
+authors = ["Brendan Turner <bfturner@foglet.io>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.2", features = ["derive"] }
+colored = "2"
+indicatif = "0.17"
+kmeans = "0.2"
+opencv = "0.81"
+palette = "0.7"
